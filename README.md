@@ -20,3 +20,6 @@ In [`data`](./data/), you can also find other `*.csv` files with the results of 
 The notebook, `distance_analysis_v6.ipynb`, includes the scripts to perform the pre-processing and for obtaining the previous `*.csv` files, if you decide to double-check. However, it could be computational expensive and for that reason it is recommended to use the `*.csv` files directly. The scripts to read the files are also included. 
 
 <span style="color:#ff6b6b">But in case of pulling the repository is needed to change the direction (to be updated).</span>
+
+## Report
+On the other hand, the project draft can be found in [this link for editing](https://www.overleaf.com/5215939943vzhqyrmbqskz#682872) or in [this one for viewing](https://www.overleaf.com/read/fqcbvskjkknx#487a96). The most relevant images were included in the report with their respective analysis.
