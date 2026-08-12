@@ -5,8 +5,9 @@ The current project performs an analysis on gender inequalities in urban mobilit
 The [data set](https://www.transportes.gob.es/ministerio/proyectos-singulares/estudios-de-movilidad-con-big-data/opendata-movilidad) was obtained from the Spanish Ministry of Transport and Mobility. For our purposes, the daily files of trips by districts were used - `mitma-movilidad-v2/estudios_basicos/por-distritos/viajes/ficheros-diarios`.
 
 ## Preprocessing and Analysis
-To obtain the full dataset you can do it directly from the previous link. In the folder [`data/data_refined`](./data/data_refined/) you can find the data after the pre-processing part, namely the trips inside the Valencian Community during September and December of 2024 and aggregated by gender.
-In `data`, you can also find other `*.csv` files with the calculations on the refined data:
+To obtain the full dataset you can do it directly from the previous link. However, for efficient procedure in the folder [`data/data_refined`](./data/data_refined/) you can find the data after the pre-processing part, namely the trips inside the Valencian Community during September and December of 2024 and aggregated by gender.
+
+In `data`, you can also find other `*.csv` files with the results of the analysis using the refined data:
 - actual_distance_and_node_contribution_last.csv: metrics of the embedding distance by day and the contribution of each node.
 - centralities.csv: daily computation of the centralities - betweenness, closeness, and strength.
 - centralities_by_gender.csv: daily computation of the centralities - betweenness, closeness, and strength - by gender.
