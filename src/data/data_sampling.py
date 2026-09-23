@@ -23,7 +23,7 @@ def get_random_sample(df_tot, column='weight'):
     return df_1, df_2
 
 
-def mapping_for_embeddding(df):
+def mapping_for_embedding(df):
     nodes_O = df.select(F.col('origen').alias('node'))
     nodes_D = df.select(F.col('destino').alias('node'))
 
